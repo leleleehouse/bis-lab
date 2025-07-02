@@ -138,7 +138,7 @@ class Linked_list:
                     
 if __name__ == '__main__':
     linked_list = Linked_list(max_size = 300)
-    filename = 'lab3_input.txt'
+    filename = './1주차/01_list_hw_input.txt'
     
     with open(filename, 'r') as f:
         for line in f:
