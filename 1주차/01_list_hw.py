@@ -135,6 +135,17 @@ class Linked_list:
             result.append(f'{n.id} {n.name}')
             n = n.next
         print("Current List : " + '  '.join(result))
+        
+    def deleteList(self):
+        self.size = 0
+        self.max_size = 0
+        self.head = None
+        self.position = None
+    
+    def makeEmpty(self):
+        self.size = 0
+        self.head = None
+        self.position = 0 
                     
 if __name__ == '__main__':
     linked_list = Linked_list(max_size = 300)
